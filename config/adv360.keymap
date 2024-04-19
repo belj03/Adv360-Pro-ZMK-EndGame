@@ -58,17 +58,17 @@
 
         Fn {
             bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &tog 1                                            &mo 7   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
-&trans   &trans  &trans  &trans  &trans  &trans  &none                                             &none   &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &none      &trans     &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans          &kp SPACE  &kp ENTER  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans   &trans
+&kp F11  &kp F1    &kp F2    &kp F3     &kp F4     &kp F5  &tog 1                                            &mo 7   &kp F6  &kp F7     &kp F8     &kp F9    &kp F10   &kp F12
+&trans   &trans    &kp RALT  &trans     &trans     &trans  &none                                             &none   &trans  &trans     &trans     &kp RALT  &trans    &trans
+&trans   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans  &none      &trans     &trans      &trans  &trans  &none   &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans   &trans    &trans    &trans     &trans     &trans                        &trans      &trans                  &trans  &trans     &trans     &trans    &trans    &trans
+&trans   &trans    &trans    &trans     &trans             &kp SPACE  &kp ENTER  &trans      &trans  &trans  &trans          &trans     &trans     &trans    &trans    &trans
             >;
         };
 
         CAD {
             bindings = <
-&trans  &trans     &trans     &trans     &trans      &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &tog 4     &trans     &trans     &trans      &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(A)  &kp LC(S)  &kp LCTRL  &kp LSHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)   &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -78,11 +78,11 @@
 
         CAD+Num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans   &trans  &trans     &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp N7   &kp N8  &kp N9     &kp M   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS  &kp N4   &kp N5  &kp N6     &kp F   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp N1   &kp N2  &kp N3     &kp I                   &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp DOT  &kp N0  &kp EQUAL          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
