@@ -160,6 +160,25 @@
             #binding-cells = <0>;
             bindings = <&kp EQUAL>, <&to 3>;
         };
+
+        htGeneric: htGeneric {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HTGENERIC";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        htThumb: htThumb {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HTTHUMB";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+        };
     };
 
     macros {
@@ -170,11 +189,11 @@
 
         Default {
             bindings = <
-&tdLayerCad  &morphGui1  &morphGui2  &morphGui3   &morphGui4      &morphGui5  &tog 1                                                       &mo 6      &morphGui6  &morphGui7   &morphGui8   &morphGui9  &morphGui0          &kp MINUS
-&kp ESC      &kp Q       &kp W       &kp E        &kp R           &kp T       &backForward                                                 &none      &kp Y       &kp U        &kp I        &kp O       &kp P               &kp BSLH
-&kp TAB      &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F     &kp G       &closeApp     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H       &hm LSHFT J  &hm LCTRL K  &hm LALT L  &hm LGUI SEMICOLON  &kp SQT
-&kp GRAVE    &kp Z       &kp X       &kp C        &vihmLayer 1 V  &kp B                                &kp HOME      &kp PG_UP                        &kp N       &kp M        &kp COMMA    &kp DOT     &kp FSLH            &none
-&mo 2        &kp GRAVE   &kp CAPS    &kp LEFT     &kp RIGHT                   &kp BSPC      &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE              &kp UP       &kp DOWN     &kp LBKT    &kp RBKT            &mo 2
+&tdLayerCad         &morphGui1  &morphGui2       &morphGui3   &morphGui4      &morphGui5  &tog 1                                                                                           &mo 6                  &morphGui6  &morphGui7   &morphGui8   &morphGui9       &morphGui0          &kp MINUS
+&kp ESC             &kp Q       &hm RIGHT_ALT W  &kp E        &kp R           &kp T       &backForward                                                                                     &none                  &kp Y       &kp U        &kp I        &hm RIGHT_ALT O  &kp P               &kp BSLH
+&kp TAB             &hm LGUI A  &hm LALT S       &hm LCTRL D  &hm LSHFT F     &kp G       &closeApp                  &kp LCTRL              &kp LALT      &kp LGUI   &kp RCTRL             &none                  &kp H       &hm LSHFT J  &hm LCTRL K  &hm LALT L       &hm LGUI SEMICOLON  &kp SQT
+&kp LSHIFT          &kp Z       &kp X            &kp C        &vihmLayer 1 V  &kp B                                                         &kp HOME      &kp PG_UP                                               &kp N       &kp M        &kp COMMA    &kp DOT          &kp FSLH            &kp RIGHT_SHIFT
+&htGeneric 2 GRAVE  &kp HOME    &kp END          &kp LEFT     &kp RIGHT                   &htThumb LSHIFT BACKSPACE  &htThumb LCTRL DELETE  &kp END       &kp PG_DN  &htThumb LCTRL ENTER  &htThumb LSHIFT SPACE              &kp UP       &kp DOWN     &kp LBKT         &kp RBKT            &htGeneric 2 K_APPLICATION
             >;
         };
 
