@@ -177,7 +177,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <200>;
             flavor = "balanced";
         };
     };
@@ -192,7 +192,7 @@
             bindings = <
 &tdLayerCad         &morphGui1  &morphGui2       &morphGui3   &morphGui4      &morphGui5  &tog 1                                                                                           &mo 6                  &morphGui6  &morphGui7   &morphGui8   &morphGui9       &morphGui0          &kp MINUS
 &kp ESC             &kp Q       &hm RIGHT_ALT W  &kp E        &kp R           &kp T       &backForward                                                                                     &none                  &kp Y       &kp U        &kp I        &hm RIGHT_ALT O  &kp P               &kp BSLH
-&kp TAB             &hm LGUI A  &hm LALT S       &hm LCTRL D  &hm LSHFT F     &kp G       &closeApp                  &kp LCTRL              &kp LALT      &kp LGUI   &kp RCTRL             &none                  &kp H       &hm LSHFT J  &hm LCTRL K  &hm LALT L       &hm LGUI SEMICOLON  &kp SQT
+&kp TAB             &hm LGUI A  &hm LALT S       &hm LCTRL D  &hm LSHFT F     &kp G       &closeApp                  &kp LCTRL              &kp LALT      &kp LGUI   &kp LCTRL             &none                  &kp H       &hm LSHFT J  &hm LCTRL K  &hm LALT L       &hm LGUI SEMICOLON  &kp SQT
 &kp LSHIFT          &kp Z       &kp X            &kp C        &vihmLayer 1 V  &kp B                                                         &kp HOME      &kp PG_UP                                               &kp N       &kp M        &kp COMMA    &kp DOT          &kp FSLH            &kp RIGHT_SHIFT
 &htGeneric 2 GRAVE  &kp HOME    &kp END          &kp LEFT     &kp RIGHT                   &htThumb LSHIFT BACKSPACE  &htThumb LCTRL DELETE  &kp END       &kp PG_DN  &htThumb LCTRL ENTER  &htThumb LSHIFT SPACE              &kp UP       &kp DOWN     &kp LBKT         &kp RBKT            &htGeneric 2 K_APPLICATION
             >;
