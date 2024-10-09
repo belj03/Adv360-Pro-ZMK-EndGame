@@ -248,8 +248,8 @@
 &tdLayerCad         &morphGui1   &morphGui2        &morphGui3    &morphGui4      &morphGui5  &tog 1                                                                                     &mo 6                  &morphGui6  &morphGui7  &morphGui8    &morphGui9        &morphGui0           &kp MINUS
 &kp ESC             &kp Q        &hml RIGHT_ALT W  &kp E         &kp R           &kp T       &backForward                                                                               &none                  &kp Y       &kp U       &kp I         &hmr RIGHT_ALT O  &kp P                &kp BSLH
 &kp TAB             &hml LGUI A  &hml LALT S       &hml LCTRL D  &kp F           &kp G       &closeApp                      &kp TAB     &kp LALT       &kp LGUI   &kp ESCAPE            &none                  &kp H       &kp J       &hmr LCTRL K  &hmr LALT L       &hmr LGUI SEMICOLON  &kp SQT
-&none          &kp Z        &kp X             &kp C         &vihmLayer 1 V  &kp B                                                  &kp HOME       &kp PG_UP                                               &kp N       &kp M       &kp COMMA     &kp DOT           &kp FSLH             &none
-&htGeneric 2 GRAVE  &kp HOME     &kp END           &kp LEFT      &kp RIGHT                   &htThumb LEFT_SHIFT BACKSPACE  &kp DELETE  &kp LCTRL      &kp PG_DN  &htThumb LCTRL ENTER  &htThumb LSHIFT SPACE              &kp UP      &kp DOWN      &kp LBKT          &kp RBKT             &htGeneric 2 K_APPLICATION
+&kp K_APPLICATION          &kp Z        &kp X             &kp C         &vihmLayer 1 V  &kp B                                                  &kp HOME       &kp PG_UP                                               &kp N       &kp M       &kp COMMA     &kp DOT           &kp FSLH             &kp PG_UP
+&htGeneric 2 GRAVE  &kp HOME     &kp END           &kp LEFT      &kp RIGHT                   &htThumb LEFT_SHIFT BACKSPACE  &kp DELETE  &kp LCTRL      &kp PG_DN  &htThumb LCTRL ENTER  &htThumb LSHIFT SPACE              &kp UP      &kp DOWN      &kp LBKT          &kp RBKT             &kp PG_DOWN
             >;
         };
 
